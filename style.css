@@ -1,0 +1,371 @@
+*{
+    box-sizing: border-box;
+}
+
+body,h1,h2,h3,h4,p{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+.container{
+    width: 1155px;
+    margin: 0 auto;
+}
+
+/*---------------------------------------Nav---------------------------------------------*/
+.nav-content{
+    text-align: right;
+    margin-top: 30px;
+}
+
+.nav-content a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/*------------------------------------Header----------------------------------------*/
+
+header{
+    color: white;
+    background-image: url(img/Rectangle%202.png);
+    padding-top: 150px;
+    padding-bottom: 250px;
+    margin-top: 25px;
+}
+
+.left h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-top: 13px;
+    margin-bottom: 23px;
+}
+
+.left .small{
+    font-size: 16px;
+}
+
+.left h3{
+    font-size: 19px;
+    margin-bottom: 12px;
+    letter-spacing: 3px;
+}
+
+.left span{
+    text-transform: uppercase;
+}
+
+.left .description{
+    line-height: 22px;
+    margin-top: 33px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.special{
+    font-weight: 500;
+    margin-top: 18px;
+}
+
+.left button{
+    background-color: #267ae9;
+    color: white;
+    width: 224px;
+    height: 45px;
+    border: 2px white solid;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*----------------------------About------------------------------*/
+
+.about-content{
+}
+
+.about-content h1{
+    text-align: center;
+    color: #2f3f54;
+    font-size: 40px;
+    margin-top: 150px;
+    margin-bottom: 45px;
+}
+
+.about-content .blue{
+    color: #2575e7;
+    
+}
+
+.about-content p{
+    width: 569px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #2f3f54;
+    line-height: 25px;
+}
+
+.about-content .red{
+    color: #e95849;
+}
+
+.about-content .green{
+    text-align: center;
+    color: #06c6ab;
+}
+
+
+/*--------------------------------------Block-----------------------------------------*/
+
+.price{
+    background-color: #ffffff;
+}
+
+.price-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.block-top .block-circle{
+    width: 280px;
+    height: 280px;
+    background-color: #267ae9;
+    border-radius: 100%;
+    position: absolute;
+    top: -180px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.block-circle h1{
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    bottom: 40px;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.block-circle span{
+    font-size: 16px;
+}
+
+
+.block-top{
+    overflow: hidden;
+    position: relative;
+    padding-top: 140px;
+    
+}
+
+.block{
+    width: 360px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 20px black; 
+    margin-top: 100px;
+}
+
+
+.img{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.block-content h1{
+    color: #267ae9;
+    font-size: 31px;
+    margin-bottom: 19px;
+}
+
+.block-content .p{
+    color: #4a6385;
+    font-size: 14px;
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+
+.block-content p{
+    color: #4a6385;
+    font-size: 17px;
+    line-height: 35px;
+}
+
+.block-content{
+    margin-bottom: 70px;
+    padding: 0px 45px;
+}
+
+.button button{
+    background-color: #267ae9;
+    color: white;
+    width: 100%;
+    font-size: 17px;
+    height: 60px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    
+}
+
+.button{
+}
+
+.block img{
+    height: 70px;
+}
+
+
+
+
+/*----------------------------------------------About-Us---------------------------------*/
+
+.about-us{
+    margin-top: 300px;
+    margin-bottom: 260px;
+}
+
+.about-us-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-text{
+    text-align: center;
+}
+
+.about-us-text h1{
+    font-size: 40px;
+    color: #2f3f54;
+    
+}
+
+.about-us-text span{
+    color: #267ae9;
+}
+
+.about-us-cards{
+    display: flex;
+    box-shadow: 3px 3px 10px black;
+    width: 530px;
+    margin-top: 167px;
+}
+
+.about-us-cards .left{
+    background-color: #267ae9;
+    padding: 107px 36px;
+}
+
+.about-us-cards .right{
+    padding: 60px 40px;
+    
+}
+
+.about-us-cards p{
+    width: 250px;
+    color: #2f3f54;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.about-us-cards span{
+    color: #267ae9;
+}
+
+.about-us-cards .bottom{
+    margin-top: 100px;
+}
+
+/*-------------------------------------------Sponsors------------------------------*/
+.sponsors{
+    margin-bottom: 107px;
+}
+
+/*-------------------------------Footer-----------------------------------*/
+
+.footer-content{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer{
+    background-image: url(img/base.png);
+    padding-top: 85px;
+    padding-bottom: 120px;
+}
+
+footer h4{
+    color: #c6d9f4;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+footer .links{
+    margin-right: 60px;
+}
+
+footer a{
+    color: #718db2;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 35px;
+}
+
+
+form input{
+    background: none;
+    color: #718db2;
+    border: 1px #3d4d60 solid;
+    width: 270px;
+    height: 41px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.form{
+    margin-left: 80px;
+}
+
+form input::placeholder{
+    color: #718db2;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form textarea{
+    background: none;
+    color: #718db2;
+    border: 1px #3d4d60 solid;
+    resize: none;
+    width: 270px;
+    height: 85px;
+    outline: none;
+    padding-left: 10px;
+}
+
+form button{
+    background-color: #2575e7;
+    color: white;
+    width: 96px;
+    height: 36px;
+    border: none;
+    margin-top: 9px;
+}
